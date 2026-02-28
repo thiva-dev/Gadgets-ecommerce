@@ -1,0 +1,29 @@
+{% extends 'app/base.html' %} 
+
+{% load static %} 
+
+
+{% block content %}
+<div class="signin">
+
+<form method="POST">
+  <div class="form-container">
+    {% csrf_token %}
+
+    <p class="form-message">{{msg}}</p>
+
+    <label class="form-label">Username</label>
+    <input type="text" name="username" class="form-input" /><br />
+
+    <label class="form-label">Email</label>
+    <input type="text" name="email" class="form-input" /><br />
+
+    <label class="form-label">Password</label>
+    <input type="password" name="password" class="form-input" />
+
+    <button class="form-button">Submit</button>
+  </div>
+</form>
+</div>
+
+{% endblock %}

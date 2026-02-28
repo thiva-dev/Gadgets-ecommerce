@@ -1,0 +1,30 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<form method="POST"  class="product-upload">
+     {% csrf_token %}
+
+     <div class="upload-box">
+          <h2 style="overflow-y: hidden; text-align: center;">Add The Product</h2>
+          <label class="upload-label">Title</label>
+          <input type="text" placeholder="Product Name" class="upload-input">
+
+          <label class="upload-label" >Product Image</label>
+          <input type="file" class="upload-input">
+
+          <label class="upload-label">Description</label>
+          <input type="text" class="upload-input">
+
+          <label class="upload-label">Price</label>
+          <input type="number" class="upload-input">
+
+          <button class="upload-button">Submit</button>
+     </div>
+
+    
+
+</form>
+
+{% endblock %}

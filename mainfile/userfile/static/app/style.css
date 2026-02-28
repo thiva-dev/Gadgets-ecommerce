@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navebar */
+
+
+.nav1{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+   
+    
+
+}
+.nav1 , li a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+     color: white;
+}
+
+
+
+
+
+/* swiper content */
+
+    swiper-container {
+      width: 100%;
+      height: 600px;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .autoplay-progress {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 10;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: var(--swiper-theme-color);
+    }
+
+    .autoplay-progress svg {
+      --progress: 0;
+      position: absolute;
+      left: 0;
+      top: 0px;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      stroke-width: 4px;
+      stroke: var(--swiper-theme-color);
+      fill: none;
+      stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+      stroke-dasharray: 125.6;
+      transform: rotate(-90deg);
+    }
+
+    .hero-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Hover on wrapper div */
+.hero-overlay:hover  {
+    opacity: 1;
+}
+
+.hero-slide:hover img {
+    transform: scale(1.1);
+}
+
+.hero-overlay h2 {
+    position: absolute;
+    top: 75%;
+    font-size: 22px;
+    overflow-y: hidden;
+
+    
+}
+
+.hero-btn {
+    position: absolute;
+    margin-top: 450px;
+    padding: 8px 15px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* top deal carousul */
+
+h1 {
+    overflow: hidden;
+}
+
+.btn{
+    overflow: hidden;
+}
+
+.card{
+    height: 400px;
+}
+
+@media (max-width: 991px) {
+
+    .nav1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav1 li {
+        width: 100%;
+    }
+
+    .nav1 li a {
+        display: block;  
+        width: 100%;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .navbar2 {
+        flex-direction: column;
+    }
+
+    .navbar2 {
+        margin-bottom: 10px;
+    }
+}

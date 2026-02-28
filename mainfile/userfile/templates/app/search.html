@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+{% if products %}
+
+<style>
+    .card{
+        height: 500px;
+    }
+</style>
+
+
+<div class="container mt-4">
+  <h1 class="mb-3">PRODUCTS</h1>
+  <div class="row">
+   {% for prod in products %}
+   <div class="col-3 mt-4">
+      <div class="card">
+        <img src="{{prod.img.url}}" alt="product">
+        <div class="card-body p-2">
+        <h5>{{prod.title}}</h5>
+        <p>{{prod.des}}</p>
+        <h4>${{prod.price}}</h4>
+          <div class="d-flex">
+            <button class="btn btn-dark me-5">Add To Cart</button>
+            <button class="btn btn-danger">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   {% endfor %}
+    </div>
+    </div>
+{% else %}
+<p>Result not found...</p>
+
+{% endif %}
+{% endblock %}

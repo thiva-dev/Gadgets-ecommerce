@@ -1,0 +1,201 @@
+{% extends 'app/base.html' %} 
+
+{% load static %} 
+
+{% block content %}
+
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" centered-slides="true" autoplay-delay="5500" autoplay-disable-on-interaction="false">
+  <swiper-slide>
+    <div class="hero-slide">
+      <img src="{% static 'images/slide-1.jpg' %}" alt="SLIDE" />
+
+      <div class="hero-overlay">
+        <h2>
+          JBL Professional studio & PA systems
+          <p class="fs-6 text-secondary">
+            Actual battery life and performance may vary based on usage. Strong
+            bass, durability, and portable design.
+          </p>
+        </h2>
+
+        <a href="{% url 'product' %}" class="hero-btn">Explore</a>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="hero-slide">
+      <img src="{% static 'images/slide-2.png' %}" alt="SLIDE" />
+
+      <div class="hero-overlay">
+        <h2>
+          BoAt leading Indian consumer electronics brand
+          <p class="fs-6 text-secondary">
+            Fashionable products including TWS earbuds (Airdopes), smartwatches,
+            speakers and headphones.
+          </p>
+        </h2>
+        <a href="{% url 'product' %}" class="hero-btn">Explore</a>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="hero-slide">
+      <img src="{% static 'images/slide-3.png' %}" alt="SLIDE" />
+
+      <div class="hero-overlay">
+        <h2>
+          Sony Performance may vary conditions
+          <p class="fs-6 text-secondary">
+            Sound quality depends on source format, device compatibility, and
+            listening environment.
+          </p>
+        </h2>
+        <a href="{% url 'product' %}" class="hero-btn">Explore</a>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="hero-slide">
+      <img src="{% static 'images/slide-4.png' %}" alt="SLIDE" />
+
+      <div class="hero-overlay">
+        <h2>
+          Bose Sound quality perception may vary from person to person
+          <p class="fs-6 text-secondary">
+            Noise cancellation, bluetooth connectivity range may vary due to
+            obstacles, interference, or device compatibility.
+          </p>
+        </h2>
+        <a href="{% url 'product' %}" class="hero-btn">Explore</a>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="hero-slide">
+      <img src="{% static 'images/slide-5.jpg' %}" alt="SLIDE" />
+
+      <div class="hero-overlay">
+        <h2>
+          Apple Deep bass with advanced computational audio
+          <p class="fs-6 text-secondary">
+            Audio performance may vary depending on room size, 360° sound,
+            acoustics and placement.
+          </p>
+        </h2>
+        <a href="{% url 'product' %}" class="hero-btn">Explore</a>
+      </div>
+    </div>
+  </swiper-slide>
+
+  <div class="autoplay-progress" slot="container-end">
+    <svg viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="20"></circle>
+    </svg>
+    <span></span>
+  </div>
+</swiper-container>
+
+<!-- Initialize Swiper -->
+
+<div class="container bg-body-secondary mt-4 rounded-4">
+  <div class="row">
+    <div class="col-3 mb-3 text-center">
+      <h4 style="margin-top: 30px; overflow-y: hidden">
+        <i class="bi bi-receipt"></i> <b>GST</b>
+      </h4>
+      <h6 style="overflow-y: hidden; margin-left: 20px">Billing</h6>
+    </div>
+    <div class="col-3 text-center mt-4">
+      <h4 style="overflow-y: hidden">
+        <img
+          src="{% static 'images/icon-1.png' %}"
+          style="width: 35px"
+          alt=""
+        /><b>6 Months</b>
+      </h4>
+      <h6 style="overflow-y: hidden; margin-left: 20px">Warranty</h6>
+    </div>
+    <div class="col-3 text-center">
+      <h4 style="margin-top: 30px; overflow-y: hidden">
+        <i class="bi bi-truck"></i> <b>Free Express</b>
+      </h4>
+      <h6 style="overflow-y: hidden; margin-left: 20px">Delevery</h6>
+    </div>
+    <div class="col-3 text-center">
+      <h4 style="margin-top: 30px; overflow-y: hidden">
+        <i class="bi bi-repeat"></i> <b>7-days</b>
+      </h4>
+      <h6 style="overflow-y: hidden; margin-left: 20px">Replacement</h6>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <h1>Top Deal</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-6">
+        <div class="card">
+          <img src="{% static 'images/slide-t1.jpg' %}" alt="SLIDE" />
+          <div class="card p-2">
+            <h5>Boat Stone Lumos</h5>
+            <p>Newly Launched Stone Lumos 60W Bluetooth Speaker</p>
+            <h5>₹2,314</h5>
+            <div class="d-flex">
+              <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-6">
+        <div class="card">
+          <img src="{% static 'images/slide-t2.jpg' %}" alt="SLIDE" />
+          <div class="card p-2">
+            <h5>Bose SoundLink Max</h5>
+            <p>IP67 Waterproof, Rope Handle and Up to 20 Hours</p>
+            <h5>₹6,314</h5>
+            <div class="d-flex">
+              <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="{% static 'images/slide-t3.jpg' %}" alt="SLIDE" />
+          <div class="card p-2">
+            <h5>Sennheiser Accentum</h5>
+            <p>Hybrid ANC,50Hr Battery & BTD 600 Bluetooth 5,990 Streaming</p>
+            <h5>₹9,199</h5>
+            <div class="d-flex">
+              <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="{% static 'images/slide-t4.jpg' %}" alt="SLIDE" />
+          <div class="card p-2">
+            <h5>Apple AirPods Pro 3</h5>
+            <p>Earbuds, Active Noise Cancellation and Live Translation</p>
+            <h5>₹4,314</h5>
+            <div class="d-flex">
+              <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h1>over</h1>
+  </div>
+
+  {% endblock %}
+</div>

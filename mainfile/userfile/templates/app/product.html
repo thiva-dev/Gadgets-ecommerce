@@ -1,0 +1,69 @@
+{% extends 'app/base.html' %}
+ {% load static %}
+{% block content %}
+
+<style>
+  swiper-container {
+    width: 100%;
+    height: 500px;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .card{
+    height: 550px;
+  }
+</style>
+
+<swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true" css-mode="true">
+  <swiper-slide>
+    <img src="{% static 'images/slide-11.png' %}" alt="SLIDE"/>
+  </swiper-slide>
+  <swiper-slide>
+    <img src="{% static 'images/slide-12.jpg' %}" alt="SLIDE"/>
+  </swiper-slide>
+  <swiper-slide>
+    <img src="{% static 'images/slide-13.png' %}" alt="SLIDE"/>
+  </swiper-slide>
+</swiper-container>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+
+
+<div class="container mt-4">
+  <h1 class="mb-3">PRODUCTS</h1>
+  <div class="row">
+          {% for gatget in  gadgets%}
+    <div class="col-lg-3 mt-4">
+      <div class="card">
+        <img src="{{gatget.img.url}}" alt="product">
+        <div class="card-body p-2">
+        <h5>{{gatget.title}}</h5>
+        <p>{{gatget.des}}</p>
+        <h4>${{gatget.price}}</h4>
+          <div class="d-flex">
+            <button class="btn btn-dark text-decoration-none me-5"><a href="{% url 'addtocart' gatget.id %}" style="text-decoration: none; color: white;">Add To Cart</a></button>
+            <button class="btn btn-danger">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+             {% endfor %}
+      </div>
+    </div>
+
+{% endblock %}
