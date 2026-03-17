@@ -140,4 +140,3 @@ def Cart(req):
     return render(req, 'app/cart.html', {'products':products, 'total':total})
 
 
-
