@@ -11,13 +11,6 @@ def base (req):
 def home(request):
     return render(request, 'app/home.html')
 
-def about (req):
-    return render(req, 'app/about.html')
-
-
-def contact(req):
-    return render(req, 'app/contact.html')
-
 def signin(request):
     msg=""
     

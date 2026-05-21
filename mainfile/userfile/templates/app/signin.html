@@ -4,10 +4,11 @@
 
 
 {% block content %}
-<div class="signin">
+<div class="signin ">
 
 <form method="POST">
-  <div class="form-container">
+  <div class="form-container mt-0 ">
+    <h2 class="text-head text-center ">Signin</h2>
     {% csrf_token %}
 
     <p class="form-message">{{msg}}</p>
