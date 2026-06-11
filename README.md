@@ -40,7 +40,8 @@ Login Page:
 
 Cart:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/3fc4b32349829dbf44e825661cce57815bac48ab/Add%20to%20cart.png)
-Admin Dashboard
+Admin Dashboard:
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/0edfc362ed74be80c08e123a038771531de04cb6/Admin%20dashboard.png)
 
 ⚙️ Installation
 Bash
