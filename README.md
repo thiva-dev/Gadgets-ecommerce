@@ -96,7 +96,11 @@ Dynamic Content Rendering
 Clean and Responsive UI
 
 👨‍💻 Developer
+
 Thivagaran P
+
 📧 thivagaran.dev@gmail.com
+
 🔗 GitHub: https://github.com/thiva-dev⁠
+
 🔗 LinkedIn: https://linkedin.com/in/thivagaran-p⁠
