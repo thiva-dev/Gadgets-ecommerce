@@ -37,6 +37,9 @@ Product Listing Page:
 
 Login Page:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/1e9c499dfcd609c44856dda2282d4bd2325a5656/login%20page.png)
+
+Cart:
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/3fc4b32349829dbf44e825661cce57815bac48ab/Add%20to%20cart.png)
 Admin Dashboard
 
 ⚙️ Installation
