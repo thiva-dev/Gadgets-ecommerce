@@ -30,7 +30,9 @@ VS Code
 Home Page:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/51da5542a61f5a31c9d08aabdddf542c9355eb1a/Home-1.png)
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/d32a9e2d41ed8d41beb99eb70aaed16b04ab4d67/Home-2.png)
-Product Listing Page
+
+Product Listing Page:
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/cf5877e857feac3e236d8e439ec2007b8a2174e8/Product%20listing-1.png)
 Product Details Page
 Login Page
 Admin Dashboard
