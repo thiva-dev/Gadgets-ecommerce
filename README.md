@@ -33,8 +33,10 @@ Home Page:
 
 Product Listing Page:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/cf5877e857feac3e236d8e439ec2007b8a2174e8/Product%20listing-1.png)
-Product Details Page
-Login Page
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/12f49f27da4ab9736db6e8d665002bf0450ae54f/product%20listing-2.png)
+
+Login Page:
+
 Admin Dashboard
 
 ⚙️ Installation
