@@ -1,17 +1,30 @@
 ﻿Gadget Hub - E-Commerce Website
+ 
 📖 About the Project
+
 Gadget Hub is a full-stack e-commerce web application developed using Django and MySQL. The platform allows users to browse gadgets, view product details, register and log in securely, and manage products through an admin dashboard.
+
 🚀 Features
 User Registration & Authentication
+
 Secure Login & Logout
+
 Product Listing and Product Details
+
 Category-Based Product Filtering
+
 Admin Product Management
+
 CRUD Operations
+
 Responsive User Interface
+
 Session-Based Authentication
+
 Database Integration with MySQL
+
 🛠️ Tech Stack
+
 Frontend
 HTML5
 CSS3
@@ -26,6 +39,7 @@ Tools
 Git
 GitHub
 VS Code
+
 📸 Screenshots:
 Home Page:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/51da5542a61f5a31c9d08aabdddf542c9355eb1a/Home-1.png)
@@ -56,19 +70,31 @@ pip install -r requirements.txt
 python manage.py migrate
 
 python manage.py runserver
+
 🎯 Key Learning Outcomes:
 Built a full-stack web application using Django.
+
 Implemented user authentication and authorization.
+
 Developed CRUD functionalities for product management.
+
 Integrated MySQL database with Django ORM.
+
 Created responsive UI using Bootstrap.
+
 Applied Git and GitHub for version control.
+
 📂 Project Highlights
 Full-Stack Development
+
 Database Design & Integration
+
 Authentication & Session Management
+
 Dynamic Content Rendering
+
 Clean and Responsive UI
+
 👨‍💻 Developer
 Thivagaran P
 📧 thivagaran.dev@gmail.com
