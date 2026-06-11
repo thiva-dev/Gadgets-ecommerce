@@ -28,7 +28,7 @@ GitHub
 VS Code
 📸 Screenshots:
 Home Page:
-
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/51da5542a61f5a31c9d08aabdddf542c9355eb1a/Home-1.png)
 Product Listing Page
 Product Details Page
 Login Page
