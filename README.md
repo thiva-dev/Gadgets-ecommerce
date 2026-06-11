@@ -29,6 +29,7 @@ VS Code
 📸 Screenshots:
 Home Page:
 ![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/51da5542a61f5a31c9d08aabdddf542c9355eb1a/Home-1.png)
+![image alt](https://github.com/thiva-dev/Gadgets-ecommerce/blob/d32a9e2d41ed8d41beb99eb70aaed16b04ab4d67/Home-2.png)
 Product Listing Page
 Product Details Page
 Login Page
